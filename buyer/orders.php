@@ -34,20 +34,23 @@ $pageTitle = 'Мои заказы';
 require_once dirname(__DIR__) . '/includes/header.php';
 ?>
 
-<!--breadcrumb area start-->
-<div class="breadcrumb_area">
+<!--breadcrumbs area start-->
+<div class="breadcrumbs_area">
   <div class="container">
-    <div class="breadcrumb_content">
-      <h2>Мои заказы</h2>
-      <ul>
-        <li><a href="<?= APP_URL ?>/index.php">Главная</a></li>
-        <li><a href="<?= APP_URL ?>/buyer/index.php">Кабинет</a></li>
-        <li>Заказы</li>
-      </ul>
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumb_content">
+          <ul>
+            <li><a href="<?= APP_URL ?>/index.php">Главная</a></li>
+            <li><a href="<?= APP_URL ?>/buyer/index.php">Кабинет</a></li>
+            <li>Мои заказы</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-<!--breadcrumb area end-->
+<!--breadcrumbs area end-->
 
 <div class="shop_area" style="padding:40px 0;">
   <div class="container">

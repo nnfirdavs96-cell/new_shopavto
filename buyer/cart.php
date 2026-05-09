@@ -56,13 +56,22 @@ $pageTitle = 'Корзина';
 require_once dirname(__DIR__) . '/includes/header.php';
 ?>
 
-<div class="breadcrumb_section page-decoration">
+<!--breadcrumbs area start-->
+<div class="breadcrumbs_area">
   <div class="container">
-    <div class="az-breadcrumb">
-      <a href="<?= APP_URL ?>/index.php">Главная</a><span>/</span>Корзина
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumb_content">
+          <ul>
+            <li><a href="<?= APP_URL ?>/index.php">Главная</a></li>
+            <li>Корзина</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+<!--breadcrumbs area end-->
 
 <div class="cart_page_bg section_padding">
   <div class="container">

@@ -36,19 +36,22 @@ function highlightSearch(string $text, string $q): string {
 }
 ?>
 
-<!--breadcrumb area start-->
-<div class="breadcrumb_area">
+<!--breadcrumbs area start-->
+<div class="breadcrumbs_area">
   <div class="container">
-    <div class="breadcrumb_content">
-      <h2>Поиск запчастей</h2>
-      <ul>
-        <li><a href="<?= APP_URL ?>/index.php">Главная</a></li>
-        <li>Поиск</li>
-      </ul>
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumb_content">
+          <ul>
+            <li><a href="<?= APP_URL ?>/index.php">Главная</a></li>
+            <li>Поиск запчастей</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-<!--breadcrumb area end-->
+<!--breadcrumbs area end-->
 
 <div class="shop_area" style="padding:40px 0;">
   <div class="container">

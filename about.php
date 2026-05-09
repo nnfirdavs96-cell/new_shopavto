@@ -4,13 +4,22 @@ $pageTitle = 'О нас';
 require_once __DIR__ . '/includes/header.php';
 ?>
 
-<div class="breadcrumb_section page-decoration">
+<!--breadcrumbs area start-->
+<div class="breadcrumbs_area">
   <div class="container">
-    <div class="az-breadcrumb">
-      <a href="<?= APP_URL ?>/index.php">Главная</a><span>/</span>О нас
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumb_content">
+          <ul>
+            <li><a href="<?= APP_URL ?>/index.php">Главная</a></li>
+            <li>О нас</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+<!--breadcrumbs area end-->
 
 <div class="about_bg_area section_padding">
   <div class="container">
