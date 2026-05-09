@@ -89,10 +89,10 @@
               <h3>О нас</h3>
               <div class="footer_menu">
                 <ul>
-                  <li><a href="#">О компании</a></li>
-                  <li><a href="#">Доставка и оплата</a></li>
-                  <li><a href="#">Гарантия</a></li>
-                  <li><a href="#">Контакты</a></li>
+                  <li><a href="<?= APP_URL ?>/about.php">О компании</a></li>
+                  <li><a href="<?= APP_URL ?>/faq.php">Доставка и оплата</a></li>
+                  <li><a href="<?= APP_URL ?>/faq.php">FAQ</a></li>
+                  <li><a href="<?= APP_URL ?>/contact.php">Контакты</a></li>
                 </ul>
               </div>
             </div>
