@@ -123,5 +123,6 @@
 
 <script src="<?= APP_URL ?>/assets/js/plugins.js"></script>
 <script src="<?= APP_URL ?>/assets/js/main.js"></script>
+<script src="<?= APP_URL ?>/assets/js/app.js"></script>
 </body>
 </html>
